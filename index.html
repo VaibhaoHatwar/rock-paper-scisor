@@ -5,9 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
-    <title>Rock Paper Scissor</title>
+    <title>Rock Paper Scissor Game</title>
 </head>
 <body>
-    
+    <h1>Rock Paper Scissor</h1>
+    <div class="choices">
+        <div class="choice">
+            <img src="./images/rock.png" alt="rock guesture image" id="rock">
+        </div>
+        <div class="choice">
+            <img src="./images/paper.png" alt="paper guesture image" id="paper">
+        </div>
+        <div class="choice">
+            <img src="./images/scissor.png" alt="scissor guesture image" id="scissor">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <div class="msg">Play your move</div>
+    </div>
 </body>
 </html>
