@@ -57,7 +57,7 @@ img {
     margin-top: 5rem;
 }
 
-.msg {
+#msg {
     background-color: #0a0a23;
     color:#fff;
     display: inline;
