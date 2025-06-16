@@ -34,11 +34,11 @@ A simple and interactive Rock Paper Scissors game built using **HTML, CSS, and J
 ## 🗂️ Project Structure
 
 rock-paper-scissors/
-│
-├── images/ # Icons for rock, paper, scissor
-├── app.js # JavaScript logic
-├── style.css # Stylesheet
-├── index.html # Main HTML file
+│ <br>
+├── images/ # Icons for rock, paper, scissor <br>
+├── app.js # JavaScript logic <br>
+├── style.css # Stylesheet <br>
+├── index.html # Main HTML file <br>
 └── README.md # This file
 
 ---
@@ -70,11 +70,14 @@ rock-paper-scissors/
 - Add keyboard controls
 
 ✍️ Author
+<br>
 Vaibhao Hatwar
+<br>
 📧 vaibhaohatwar.works@gmail.com
 
 📜 License
-This project is currently private and does not use a public license.
+<br>
+This project is currently private and does not use a public license. <br>
 Feel free to fork or remix for learning purposes only.
 
 Let me know if you want the **responsive version next**, or need help adding this to a GitHub repo.
