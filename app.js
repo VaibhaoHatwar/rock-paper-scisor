@@ -3,9 +3,9 @@ let compScore = 0;
 
 const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
-
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
+const restartBtn = document.getElementById("restart-btn");
 
 const genCompChoice = () => {
     const options = ["rock", "paper", "scissor"];
@@ -63,3 +63,13 @@ choices.forEach((choice) =>{
         playGame(userChoice);
     })
 })
+
+// Restart game logic
+restartBtn.addEventListener("click", () => {
+  userScore = 0;
+  compScore = 0;
+  userScorePara.innerText = userScore;
+  compScorePara.innerText = compScore;
+  msg.innerText = "Game reset! Play your move";
+  msg.style.backgroundColor = "#0a0a23";
+});

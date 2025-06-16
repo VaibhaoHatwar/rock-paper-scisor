@@ -65,3 +65,23 @@ img {
     padding: 1rem;
     border-radius: 1rem;
 }
+
+/* Restart button styling */
+.btn-container {
+  margin-top: 2rem;
+}
+
+#restart-btn {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  background-color: #3232a9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#restart-btn:hover {
+  background-color: #6161bf;
+}
